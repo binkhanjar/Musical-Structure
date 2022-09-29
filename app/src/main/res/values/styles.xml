@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- style activity main -->
+    <style name="CardView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- style RelativeLayout -->
+    <style name="RelativeLayout_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">24dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">?android:attr/selectableItemBackground
+        </item>
+    </style>
+
+    <!-- style CircleImage -->
+    <style name="CircleImage_Style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- style text view singer name -->
+    <style name="tv_singerName_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- style text view name -->
+    <style name="tv_Name_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.MusicalStructure">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.android.MusicalStructure.Kadim"
+            android:label="Kadim Al Sahir"
+            android:parentActivityName="com.example.android.MusicalStructure.MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.MusicalStructure.MainActivity"/>
+        <activity
+            android:name="com.example.android.MusicalStructure.Abdu"
+            android:label="Mohammed Abdu"
+            android:parentActivityName="com.example.android.MusicalStructure.MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.MusicalStructure.MainActivity"/>
+        <activity
+            android:name="com.example.android.MusicalStructure.Michael"
+            android:label="Michael Jackson"
+            android:parentActivityName="com.example.android.MusicalStructure.MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.MusicalStructure.MainActivity"/>
+        <activity
+            android:name="com.example.android.MusicalStructure.Fairouz"
+            android:label="Fairouz"
+            android:parentActivityName="com.example.android.MusicalStructure.MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.MusicalStructure.MainActivity"/>
+
+        <activity
+            android:name="com.example.android.MusicalStructure.Halim"
+            android:label="Abdel Halim Hafez"
+            android:parentActivityName="com.example.android.MusicalStructure.MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.MusicalStructure.MainActivity"/>
+        <activity
+            android:name="com.example.android.MusicalStructure.UmmKulthum"
+            android:label="Umm Kulthum"
+            android:parentActivityName="com.example.android.MusicalStructure.MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.MusicalStructure.MainActivity"/>
+        <activity android:name="com.example.android.MusicalStructure.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

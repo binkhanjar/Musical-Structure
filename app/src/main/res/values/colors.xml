@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- اللون الأساسي للتطبيق (يظهر في شريط التطبيق) -->
+    <color name="primary_color">#000</color>
+
+    <!-- اللون الغامق الأساسي للتطبيق (يظهر في شريط الحالة) -->
+    <color name="primary_dark_color">#696969</color>
+
+    <!-- لون الخلفية للتطبيق-->
+    <color name="tan_background">@color/category</color>
+
+    <!-- لون الخلفية الفئات -->
+    <color name="category">#FFFFFF</color>
+
+</resources>
+

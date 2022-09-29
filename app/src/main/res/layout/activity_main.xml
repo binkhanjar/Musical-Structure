@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!-- Umm kulthum -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_UmmKulthum_xml"
+            style="@style/CardView_Style"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout style="@style/RelativeLayout_Style">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_umKlthom"
+                    style="@style/CircleImage_Style"
+                    android:src="@drawable/amklthom"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:id="@+id/text_singerName_xml"
+                    style="@style/tv_singerName_Style"
+                    android:layout_below="@+id/img_umKlthom"
+                    android:text="@string/singer_name" />
+
+                <TextView
+                    android:id="@+id/text_UmmKulthum_xml"
+                    style="@style/tv_Name_Style"
+                    android:layout_below="@+id/text_singerName_xml"
+                    android:text="@string/umm_kulthum" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Halim-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_halim_xml"
+            style="@style/CardView_Style"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout style="@style/RelativeLayout_Style">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_halim"
+                    style="@style/CircleImage_Style"
+                    android:src="@drawable/hlem"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:id="@+id/text_singerName2_xml"
+                    style="@style/tv_singerName_Style"
+                    android:layout_below="@+id/img_halim"
+                    android:text="@string/singer_name" />
+
+                <TextView
+                    android:id="@+id/text_halim_xml"
+                    style="@style/tv_Name_Style"
+                    android:layout_below="@+id/text_singerName2_xml"
+                    android:text="@string/abdel_halim_hafez" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Fairouz -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_firoz_xml"
+            style="@style/CardView_Style"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout style="@style/RelativeLayout_Style">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_firoz"
+                    style="@style/CircleImage_Style"
+                    android:src="@drawable/firoz_"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:id="@+id/text_singerName3_xml"
+                    style="@style/tv_singerName_Style"
+                    android:layout_below="@+id/img_firoz"
+                    android:text="@string/singer_name" />
+
+                <TextView
+                    android:id="@+id/text_firoz_xml"
+                    style="@style/tv_Name_Style"
+                    android:layout_below="@+id/text_singerName3_xml"
+                    android:text="@string/fairouz" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Michael -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_michel_xml"
+            style="@style/CardView_Style"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout style="@style/RelativeLayout_Style">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_michel"
+                    style="@style/CircleImage_Style"
+                    android:src="@drawable/michel"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:id="@+id/text_singerName4_xml"
+                    style="@style/tv_singerName_Style"
+                    android:layout_below="@+id/img_michel"
+                    android:text="@string/singer_name" />
+
+                <TextView
+                    android:id="@+id/text_michel_xml"
+                    style="@style/tv_Name_Style"
+                    android:layout_below="@+id/text_singerName4_xml"
+                    android:text="@string/michael_jackson" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Abdu -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_abdu_xml"
+            style="@style/CardView_Style"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout style="@style/RelativeLayout_Style">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_abdu"
+                    style="@style/CircleImage_Style"
+                    android:src="@drawable/abdo"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:id="@+id/text_singerName5_xml"
+                    style="@style/tv_singerName_Style"
+                    android:layout_below="@+id/img_abdu"
+                    android:text="@string/singer_name" />
+
+                <TextView
+                    android:id="@+id/text_abdu_xml"
+                    style="@style/tv_Name_Style"
+                    android:layout_below="@+id/text_singerName5_xml"
+                    android:text="@string/mohammed_abdu" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Kadim -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_kadim_xml"
+            style="@style/CardView_Style"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout style="@style/RelativeLayout_Style">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_kadim"
+                    style="@style/CircleImage_Style"
+                    android:src="@drawable/kazem"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:id="@+id/text_singerName6_xml"
+                    style="@style/tv_singerName_Style"
+                    android:layout_below="@+id/img_kadim"
+                    android:text="@string/singer_name" />
+
+                <TextView
+                    android:id="@+id/text_kadim_xml"
+                    style="@style/tv_Name_Style"
+                    android:layout_below="@+id/text_singerName6_xml"
+                    android:text="@string/kadim_al_sahir" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

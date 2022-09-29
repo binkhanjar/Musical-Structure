@@ -1,0 +1,57 @@
+<resources>
+    <!-- اسم التطبيق 12 حرف -->
+    <string name="app_name"> Musical Structure </string>
+
+    <string name="by"> binKhanjar </string>
+
+    <!-- اسم فئة العبارات 20 حرف -->
+    <string name="category_phrases">Phrases  </string>
+    <string name="category_phrases_ar">العبارات  </string>
+
+    <!-- اسم فئة الالوان 20 حرف -->
+    <string name="category_colors">Colors </string>
+    <string name="category_colors_ar">الألوان </string>
+
+    <!-- اسم فئة الارقام 20 حرف -->
+    <string name="category_numbers">Numbers </string>
+    <string name="category_numbers_ar">الأرقام </string>
+
+    <!-- اسم فئة العائلة 20 حرف -->
+    <string name="category_family">Family </string>
+    <string name="category_family_ar">العائلة </string>
+
+    <!-- اسم فئة الحيوانات 20 حرف -->
+    <string name="category_animals">Animals </string>
+    <string name="category_animals_ar">الحيوانات </string>
+
+    <!-- اسم فئة حروف الانجليزي 20 حرف -->
+    <string name="category_letters">letters </string>
+    <string name="category_letters_ar">الحروف </string>
+
+    <!-- اسم فئة الفواكه 20 حرف -->
+    <string name="category_Fruits">fruits </string>
+    <string name="category_Fruits_ar">الفواكه </string>
+
+    <!-- اسم فئة الخضروات 20 حرف -->
+    <string name="category_Vegetables">Vegetables </string>
+    <string name="category_Vegetables_ar">الخضروات </string>
+
+    <!-- اسم فئة الجسم 20 حرف -->
+    <string name="category_Body">Body </string>
+    <string name="category_Body_ar">الجسم </string>
+
+    <!-- اسم فئة الملابس 20 حرف -->
+    <string name="category_Clothes">Clothes </string>
+    <string name="category_Clothes_ar">الملابس </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="singer_name">Singer Name</string>
+    <string name="umm_kulthum">Umm Kulthum</string>
+    <string name="abdel_halim_hafez">Abdel Halim Hafez</string>
+    <string name="fairouz">Fairouz</string>
+    <string name="michael_jackson">Michael Jackson</string>
+    <string name="mohammed_abdu">Mohammed Abdu</string>
+    <string name="kadim_al_sahir">Kadim Al Sahir</string>
+
+</resources>
